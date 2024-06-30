@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - EcoGreen Initiative</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Sign Up</h1>
+                <form action="php/signup.php" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 EcoGreen Initiative. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
